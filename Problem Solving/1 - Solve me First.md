@@ -2,6 +2,8 @@
 
 Complete the function solveMeFirst to compute the sum of two integers.
 
+# Solution
+
 ```
 #include <cmath>
 #include <cstdio>
