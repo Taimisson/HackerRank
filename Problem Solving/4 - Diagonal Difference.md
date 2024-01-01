@@ -2,6 +2,8 @@
 
 Given a square matrix, calculate the absolute difference between the sums of its diagonals.
 
+[Diagonal Difference - HackerRank](https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true)
+
 # Solution
 
 ```
