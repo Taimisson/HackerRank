@@ -2,6 +2,8 @@
 
 Complete the function solveMeFirst to compute the sum of two integers.
 
+[Solve me First - HackerRank](https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true)
+
 # Solution
 
 ```
@@ -21,4 +23,3 @@ int main() {
     return 0;
 }
 ```
-
