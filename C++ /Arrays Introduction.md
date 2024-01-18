@@ -1,4 +1,6 @@
 ## Arrays Introduction
+
+# Solution
 ```
 int main() {
     int n;

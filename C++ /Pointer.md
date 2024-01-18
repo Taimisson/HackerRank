@@ -1,4 +1,6 @@
 ## Pointer
+
+# Solution
 ```
 void modify(int *a, int *b){
     int tempA = *a;

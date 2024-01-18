@@ -1,4 +1,6 @@
 ## Variable Sized Arrays
+
+# Solution
 ```
 int main() {
     int n;

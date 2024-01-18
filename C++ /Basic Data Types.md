@@ -1,5 +1,6 @@
 ## Basic Data Types
 
+# Solution
 ```
 int main() {
     

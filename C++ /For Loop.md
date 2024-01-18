@@ -1,4 +1,6 @@
 ## For Loop
+
+# Solution
 ```
 int main() {
     int a,b;

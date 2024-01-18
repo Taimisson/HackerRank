@@ -1,5 +1,6 @@
 ## Input and Output
 
+# Solution
 ```
 int main() {
     
