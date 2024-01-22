@@ -1,5 +1,7 @@
 ## Functions
 
+https://www.hackerrank.com/challenges/c-tutorial-functions/problem?isFullScreen=true
+
 # Solution
 ```
 int max_of_four(int a, int b, int c, int d) {
