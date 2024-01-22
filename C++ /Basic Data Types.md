@@ -1,5 +1,7 @@
 ## Basic Data Types
 
+https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true
+
 # Solution
 ```
 int main() {
