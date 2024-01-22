@@ -1,5 +1,7 @@
 ## Pointer
 
+https://www.hackerrank.com/challenges/c-tutorial-pointer/problem?isFullScreen=true
+
 # Solution
 ```
 void modify(int *a, int *b){
