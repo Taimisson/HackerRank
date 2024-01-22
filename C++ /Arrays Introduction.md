@@ -1,5 +1,7 @@
 ## Arrays Introduction
 
+https://www.hackerrank.com/challenges/arrays-introduction/problem?isFullScreen=true
+
 # Solution
 ```
 int main() {
