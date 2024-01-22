@@ -1,5 +1,7 @@
 ## Input and Output
 
+https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true
+
 # Solution
 ```
 int main() {
