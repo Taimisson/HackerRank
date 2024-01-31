@@ -7,7 +7,7 @@ Given an array of bird sightings where every element represents a bird type id, 
 # Solution
 
 ```
-int migratoryBirds(std::vector<int> arr)
+int migratoryBirds(vector<int> arr)
 {
     map<int, int> map;
 
