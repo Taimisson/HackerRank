@@ -7,20 +7,30 @@ Given an array of bird sightings where every element represents a bird type id, 
 # Solution
 
 ```
-int migratoryBirds(vector<int> arr) {
-    map<int, int> birds;
-    for(int i = 0; i < arr.size(); ++i)
-        birds[arr[i]]++;
-        
-    int maxType = 0, maxCount = 0;
-    
-    for(auto const &pair : birds)
-        if(pair.second > maxCount){
-            maxCount = pair.second;
-            maxType = pair.first;
-        }else if(pair.second == maxCount && pair.first < maxType)
-            maxType = pair.first;
-    
-    return maxType;
+int migratoryBirds(std::vector<int> arr)
+{
+    map<int, int> map;
+
+    // Conta a frequência de cada tipo de pássaro
+    for (int i = 0; i < arr.size(); i++)
+    {
+        map[arr[i]]++;
+    }
+
+    int greater = 0;
+    int key = 0;
+
+    // Encontra o tipo de pássaro mais frequente com o menor ID, no caso de empate
+    for (auto m : map)
+    {
+        if (m.second > greater || (m.second == greater && m.first < key))
+        {
+            greater = m.second;
+            key = m.first;
+        }
+    }
+
+    return key;
 }
+
 ```
