@@ -18,6 +18,7 @@ public class Solution {
         for(int num : arr)
             System.out.println(num);
         
+        scan.close();
     }
 }
 ```
