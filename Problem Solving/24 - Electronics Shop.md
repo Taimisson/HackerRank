@@ -24,3 +24,32 @@ int getMoneySpent(vector<int> keyboards, vector<int> drives, int budget) {
     return mostExpensive;
 }
 ```
+
+# Binary Search
+
+```
+int getMoneySpent(std::vector<int> keyboards, std::vector<int> drives, int b) {
+    int mostExpensive = -1;
+
+    // Ordena os drives para a busca binária
+    std::sort(drives.begin(), drives.end());
+
+    for(int keyboard : keyboards) {
+        if(keyboard >= b) continue; // Ignora teclados mais caros que o orçamento
+
+        // Busca binária para encontrar o drive mais caro dentro do orçamento
+        int start = 0, end = drives.size() - 1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (keyboard + drives[mid] <= b) {
+                mostExpensive = std::max(mostExpensive, keyboard + drives[mid]);
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+    }
+
+    return mostExpensive;
+}
+```
