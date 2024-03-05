@@ -34,5 +34,4 @@ public class Solution {
             myScanner.close();
     }
 }
-
 ```
